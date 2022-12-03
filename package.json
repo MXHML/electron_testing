@@ -1,0 +1,27 @@
+{
+  "name": "test-app-1",
+  "version": "1.0.0",
+  "description": "Testing Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MXHML/electron_testing.git"
+  },
+  "author": "Max Hamlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MXHML/electron_testing/issues"
+  },
+  "homepage": "https://github.com/MXHML/electron_testing#readme",
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-packager": "^17.1.1"
+  },
+  "dependencies": {
+    "@electron/asar": "^3.2.2",
+    "bootstrap-icons": "^1.10.2"
+  }
+}
